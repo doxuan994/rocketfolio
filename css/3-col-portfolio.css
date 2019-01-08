@@ -1,6 +1,5 @@
 body {
     padding-top: 54px;
-    text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -28,6 +27,11 @@ p {
 
 a {
     text-transform: uppercase;
+}
+
+/* Page Heading */
+.my-4, .p-page-heading {
+    text-align: center;
 }
 
 /* Navigation */

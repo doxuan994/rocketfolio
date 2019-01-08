@@ -59,24 +59,35 @@
         <div class="row">
 
             <div class="col-lg-12 col-sm-12 portfolio-item">
-                
+
                 <form class="gform" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbyUlvTWd0h3xwwPNm2B9Uczo-Oq1TgeoM4l_6M4cQ/exec">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input id="name" name="name" class="form-control" placeholder="What your Mom calls you">
+
+
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" class="form-control" placeholder="What your Mom calls you">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input id="email" name="email" type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email">
+                                <span class="email-invalid" style="display:none">Must be a valid email address</span>
+                            </div>
+                        </div>
                     </div>
+
+
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <input id="message" name="message" type="message" class="form-control"  placeholder="Tell me what's on your mind...">
+                        <textarea id="message" name="message" type="message" class="form-control" rows="3" placeholder="Tell me what's on your mind..."></textarea>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input id="email" name="email" type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email">
-                        <span class="email-invalid" style="display:none">Must be a valid email address</span>
-                    </div>
+
                     <div class="form-group">
                         <label for="color">Favorite Color</label>
-                        <input id="color" name="color" class="form-control"  placeholder="white">
+                        <input id="color" name="color" class="form-control col-lg-6"  placeholder="White">
                     </div>
 
                     <button type="submit" class="btn btn-primary">Submit</button>
